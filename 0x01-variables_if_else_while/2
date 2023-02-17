@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: print lowercase alphabets and uppercase
+ * Description: print the aplhabet in lowercase
  * Return: 0 (success)
  */
 int main(void)
@@ -11,8 +11,6 @@ int main(void)
 
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
